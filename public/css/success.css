@@ -1,0 +1,43 @@
+	html,body{
+			height: 100%;
+			margin: 0;
+			background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,199,20,1) 0%, rgba(0,212,255,1) 96%);
+		
+		}
+   
+   .myForm{
+   	background-color: rgba(0,0,0,0.5) !important;
+   	padding: 15px !important;
+   border-radius: 15px !important;
+   color: white;
+   
+   }
+.error{
+    margin: 0 auto;
+    background-color: #64CB61;
+    border-radius: 15px !important;
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+}
+
+   .br-15{
+   	border-radius: 15px 0 0 15px !important;
+   }
+   @media screen and (max-width:600px,max-height:500px){
+       .container
+     {
+       width:100%;
+       
+     }
+  
+  .card
+  {
+    width:70%;
+    
+  }
+  .d-flex
+  {
+    width:70%;
+  }
+   	

@@ -1,0 +1,66 @@
+	html,body{
+			height: 100%;
+			margin: 0;
+			background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,199,20,1) 0%, rgba(0,212,255,1) 96%);
+		
+		}
+   
+   .myForm{
+   	background-color: rgba(0,0,0,0.5) !important;
+   	padding: 15px !important;
+   border-radius: 15px !important;
+   color: white;
+   
+   }
+.form-control{
+    border-radius: 0px 15px 15px 0px !important;
+}
+   input{
+   	border-radius:0 15px 15px 0 !important;
+
+   }
+   input:focus{
+       outline: none;
+        box-shadow:none !important;
+        border:1px solid #ccc !important;
+
+   }
+
+   .br-15{
+   	border-radius: 15px 0 0 15px !important;
+   }
+.search{
+    background-color: #2A673D;
+    border: 2px solid #fff;
+    border-radius: 15px !important;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px !important;
+}
+.search:hover{
+    background-color: #6FCA50;
+    border: 2px solid #fff;
+    border-radius: 15px !important;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px !important;
+}
+@media screen and (max-width:600px,max-height:500px){
+       .container
+     {
+       width:100%;
+       
+     }
+  
+  .card
+  {
+    width:70%;
+    
+  }
+  .d-flex
+  {
+    width:70%;
+  }
