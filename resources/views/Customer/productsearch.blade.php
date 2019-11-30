@@ -28,13 +28,6 @@
 						<div  id='productList'></div>
 						
 						{{csrf_field()}}
-						@if(session('message'))
-						<div class="input-group mt-3">
-                        	
-                        	<div class="error">{{session('message')}}</div>
-                           
-						</div>
-						 @endif
                         
                         <div class="input-group mt-3">
                             <button class="search">Search</button>

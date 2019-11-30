@@ -43,8 +43,8 @@ class CustomerController extends Controller
     	}
     	else
     	{
-    		$request->session()->flash('message', 'This Unique code doesnot belong to any product');
-    		return redirect()->route('customer.search');
+    		
+    		return view('Customer.noproduct');
     		
     	}
     	
